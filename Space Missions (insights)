@@ -1,0 +1,83 @@
+From July 28, 1964 when Ranger 7 (Arianespace) launches and is the Ranger series' first success, taking photographs of the moon until it crashes into its surface 
+four days later, to the rise of the most dominating space agency SpaceX of the 21st Century, this article consists of all the significant observations and analysis
+of the Space missions and their Mission Status based on its various variables such as temp, company, wind speed etc. The Companies and the organisations which were 
+a part of the study were - SpaceX, Boeing, US Airforce, Brazilian Space Agency, Martin Marietta, European Space Agency and Arianespace. Further more the later part 
+of the article contains a screenshot of the code for the machine learning classifier which was trained on this data and could predict the what might be the mission 
+status based on the input variables with an accuracy of 1.
+
+
+
+About the Dataset:
+
+The dataset used for the study consists basically of 150 rows and 18 columns or variables including 'Company', 'Launch Date', 'Launch Time', 'Launch Site','
+Temperature (° F)', 'Wind speed (MPH)', 'Humidity (%)', 'Vehicle Type','Liftoff Thrust (kN)', 'Payload to Orbit (kg)', 'Rocket Height (m)',
+'Fairing Diameter (m)', 'Payload Name', 'Payload Type','Payload Mass (kg)', 'Payload Orbit', 'Mission Status', 'Failure Reason'.
+
+
+Insights and observations
+
+1) Overall failure to success ratio since 1964-2020 is approximately 1:4.
+
+2) Highest total number of missions was recorded by SpaceX.
+
+3) Out of the all the Successful missions SpaceX and Boeing reported to have more than 70% of the success.
+
+4) The decade of 1964-1974 was highly dominated by the US Air force Missions, following which The European Space Agency joined the race in 1980s . 
+The period between 1990-2004 saw the evolution of space agencies such as  Brazilian Space Agency, Martin Marietta, Arianespace and Boeing. Though the former 
+3 agencies launched missions rarely or some could barely survived Boeing emerged as an important agency in this period launching numerous space missions.
+Later in the decade from 2005, the reign of new and modern emerging space super power SpaceX began to take a grip on the cosmic industry and they launched 
+plenty successful space mission where the Arainespace also contributed a small part and companies such as Martin Marietta and BSA barely managed to survive and 
+probably Succumbed from the race.
+
+5) From 1964-1994 Vehicles such as 'VLS-1',
+'Delta III 8930',
+'Delta II 7425',
+'Falcon Heavy',
+'Titan IIIC',                    
+'Titan IIIB',                      
+'Delta II 7920-10'                
+'Ariane 1',                        
+'Delta II 7326',                   
+'Titan III(24)B',                  
+'Delta II 7426',                   
+'Delta IV Heavy',                  
+'Titan IIIA',                      
+'Vega'                            
+'Ariane 5 G',                      
+'Delta II 7425-10C',               
+'Ariane 42P',                      
+'Ariane 5 ECA',                    
+'Delta IV Medium+ (4,2)',          
+'Titan II(23)G'
+were used whereas in the upcmoing decade vehicles such as Delta and the Falcon series started to gain more popularity.
+
+6) Vehicles such as Delta II 7920-10C,Delta II 7925 were basically used to a payload orbit of around 800 kgs from 1964-1994
+thrn newer vehicles such as Delta II 7320-10C, and Falcon 1 and Falcon 9 were used. For the mass of upto 2500kgs falcon series Vehciles were used such
+as falcon block 3 and block 5.
+
+7) SpaceX payload orbit were majorly lower earth orbit, polar orbit, Sun earth orbit, suborbital and geostationary orbit.
+AraineSpace payload orbit consisted of medium earth orbit, mars orbit and heliocentric orbit.
+European space agency targetted lower earth orbit and geostationary transfer orbit.
+
+8) Orbits such as:
+Low Earth Orbit                
+Geostationary Transfer Orbit    
+Polar Orbit                     
+Sun-Synchronous Orbit          
+Medium Earth Orbit 
+consisted of failed missions with the Low Earth orbit and Geostationary orbit ranked the highest across 1964-2020
+Orbits like:
+Heliocentric Orbit               
+High Earth Orbit                
+Sun/Earth Orbit                  
+Earth-Moon L2                    
+Suborbital                       
+Mars Orbit   
+had no failed missions across the mentioned time.
+
+9)The Lower earth orbit has the minimum payload to orbit mass whereas the Earth moon l2 has the highest payload to orbit mass.
+
+10) There were more number of Success missions  when the temperature was recorded between 30-90 degrees farhenheit whereas specifically between the range
+50-95 recorded all the failure missions.
+
+Plenty of other observations also can be found .
