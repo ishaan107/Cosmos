@@ -1,0 +1,18 @@
+Meteorites
+
+Ranging all the way back from 7th century to the current 21st century numerous fireballs and meteorites have struck the surface of the earth and many were discovered
+in the black space. These fireballs ranged differently due to its type of core and are generally classifed into 8 categories. though many of these were given valid 
+names some of it also has a relict history and name. The aim of this project is to discover and dig in to the various variables which might be responsible for the 
+the falling of these objects and might help us in predicting the same. Also many insights and observations would be presented after applying data science tools.
+
+
+About the dataset:
+
+The dataset includes 10 columns namely:
+name	id	nametype	recclass	mass (g)	fall	year	reclat	reclong	GeoLocation
+
+There are approximately 45000+ recorded observations.
+
+
+Insights and observations
+
